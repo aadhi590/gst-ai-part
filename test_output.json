@@ -1,0 +1,31 @@
+﻿{
+    "hsn":  {
+                "code":  "6109",
+                "confidence":  0.5601,
+                "matched_description":  "cotton t-shirt tshirt knitted clothing apparel garment shirt",
+                "fallback_required":  false
+            },
+    "compliance":  {
+                       "hard_errors":  [
+
+                                       ],
+                       "soft_alerts":  [
+
+                                       ],
+                       "is_valid":  true
+                   },
+    "anomaly":  {
+                    "anomaly_detected":  false,
+                    "anomaly_score":  0.01
+                },
+    "autofill":  {
+                     "gst_type":  "IGST",
+                     "place_of_supply":  "27-Maharashtra",
+                     "confidence":  0.93
+                 },
+    "decision":  "review_required",
+    "explanations":  [
+                         "REVIEW_REQUIRED: Total demerit score 25 \u003e= 20.",
+                         "HSN_LOW_CONF (+25): HSN match confidence 0.5601 is moderate. Matched: \u0027cotton t-shirt tshirt knitted clothing apparel garment shirt\u0027."
+                     ]
+}

@@ -1,0 +1,31 @@
+﻿{
+    "hsn":  {
+                "code":  "8471",
+                "confidence":  0.2606,
+                "matched_description":  "laptop computer notebook personal computing device PC desktop",
+                "fallback_required":  false
+            },
+    "compliance":  {
+                       "hard_errors":  [
+                                           "Tax mismatch: expected 9000.0 (= 50000.0 Ã 18.0/100), got 5000.0. Difference: 4000.0"
+                                       ],
+                       "soft_alerts":  [
+
+                                       ],
+                       "is_valid":  false
+                   },
+    "anomaly":  {
+                    "anomaly_detected":  true,
+                    "anomaly_score":  -0.1686
+                },
+    "autofill":  {
+                     "gst_type":  "CGST_SGST",
+                     "place_of_supply":  "29-Karnataka",
+                     "confidence":  0.88
+                 },
+    "decision":  "blocked",
+    "explanations":  [
+                         "BLOCKED: Compliance rule violations detected.",
+                         "  â Tax mismatch: expected 9000.0 (= 50000.0 Ã 18.0/100), got 5000.0. Difference: 4000.0"
+                     ]
+}

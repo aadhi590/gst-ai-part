@@ -1,0 +1,32 @@
+﻿{
+    "hsn":  {
+                "code":  "8443",
+                "confidence":  0.2606,
+                "matched_description":  "printer printing machine inkjet laserjet office equipment scanner",
+                "fallback_required":  false
+            },
+    "compliance":  {
+                       "hard_errors":  [
+
+                                       ],
+                       "soft_alerts":  [
+
+                                       ],
+                       "is_valid":  true
+                   },
+    "anomaly":  {
+                    "anomaly_detected":  false,
+                    "anomaly_score":  0.0046
+                },
+    "autofill":  {
+                     "gst_type":  null,
+                     "place_of_supply":  null,
+                     "confidence":  0.0
+                 },
+    "decision":  "review_required",
+    "explanations":  [
+                         "REVIEW_REQUIRED: Total demerit score 40 \u003e= 20.",
+                         "HSN_LOW_CONF (+25): HSN match confidence 0.2606 is moderate. Matched: \u0027printer printing machine inkjet laserjet office equipment scanner\u0027.",
+                         "UNKNOWN_CUSTOMER (+15): No transaction history found. Autofill disabled."
+                     ]
+}

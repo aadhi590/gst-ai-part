@@ -1,0 +1,31 @@
+﻿{
+    "hsn":  {
+                "code":  null,
+                "confidence":  0.0,
+                "matched_description":  "smartphone mobile phone cellular device touchscreen handset cell",
+                "fallback_required":  true
+            },
+    "compliance":  {
+                       "hard_errors":  [
+
+                                       ],
+                       "soft_alerts":  [
+
+                                       ],
+                       "is_valid":  true
+                   },
+    "anomaly":  {
+                    "anomaly_detected":  false,
+                    "anomaly_score":  0.0056
+                },
+    "autofill":  {
+                     "gst_type":  "IGST",
+                     "place_of_supply":  "07-Delhi",
+                     "confidence":  0.71
+                 },
+    "decision":  "review_required",
+    "explanations":  [
+                         "REVIEW_REQUIRED: Total demerit score 40 \u003e= 20.",
+                         "HSN_FALLBACK (+40): Confidence 0.0 is below threshold. Manual HSN classification required."
+                     ]
+}
